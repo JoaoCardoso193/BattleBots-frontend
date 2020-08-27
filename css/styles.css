@@ -1,0 +1,175 @@
+body{
+    background-color: lightblue;
+}
+
+.robot-card {
+    background-color: rgb(33, 143, 216);
+    text-align: center;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: 26rem;
+    height: 57rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #1c4dec
+}
+
+.robot-card-all {
+    background-color: rgb(33, 143, 216);
+    text-align: center;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: 26rem;
+    height: 55rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #1c4dec
+}
+
+.robot-card-edit {
+    background-color: rgb(33, 143, 216);
+    text-align: center;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: 26rem;
+    height: 57rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #1c4dec
+}
+
+.robot-card:hover{
+background-color: rgb(5, 155, 255)
+}
+
+.robot-card-all:hover{
+    background-color: rgb(5, 155, 255)
+}
+
+.robot-card-edit:hover{
+    background-color: rgb(5, 155, 255)
+}
+
+.robot-image {
+    justify-self: center;
+    height: 10rem;
+    width: 20rem;
+    margin: 0rem 0rem;
+    display: block
+  }
+
+.stats-card{
+    text-align: left;
+    border: #1c4dec solid 2px;
+    /* padding: 1rem; */
+    width: 9rem;
+    height: 15rem;
+    /* display: grid; */
+    margin: 1rem 2rem;
+    /* box-shadow: 3px 4px #1c4dec */
+}
+
+.part-card{
+    background-color: rgb(33, 143, 216);
+    text-align: left;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: auto;
+    height: auto;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #1c4dec
+}
+
+.part-card:hover{
+    background-color: rgb(5, 155, 255)
+    }
+
+.move-card{
+    background-color: rgb(33, 143, 216);
+    text-align: left;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: auto;
+    height: auto;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #1c4dec
+}
+
+.move-card:hover{
+    background-color: rgb(5, 155, 255)
+}
+
+.moves-card{
+    text-align: right;
+    border: #1c4dec solid 2px;
+    /* padding: 1rem; */
+    width: 9rem;
+    height: 15rem;
+    /* display: grid; */
+    margin: 1rem 2rem;
+    /* box-shadow: 3px 4px #1c4dec */
+}
+
+.info-grid{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.main-grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+
+.battle-grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fight-button{
+    background-color: rgb(228, 109, 13);
+}
+
+.fight-button:hover{
+    background-color: rgb(165, 78, 7);
+}
+
+.fight-button:active{
+    background-color: yellow
+}
+
+.offensive-move-button{
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
+.stat-based-move-button{
+    background-color: rgba(9, 90, 241, 0.5)
+}
+
+.quit-button{
+    background-color: rgba(255, 4, 4, 0.753)
+}
+
+.battle-box{
+    background-color: rgba(88, 218, 190, 0.856);
+    vertical-align: top;
+    height: 42rem;
+    width: 32rem;
+    overflow-y: auto;
+}
+
+.attacker-box{
+    display: stretch;
+    align-items: center;}
+
+.control-panel{
+    align-self: stretch;
+}
