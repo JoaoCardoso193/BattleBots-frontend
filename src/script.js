@@ -42,13 +42,16 @@ document.addEventListener('DOMContentLoaded', () =>{
         let header = ce('h1')
         header.innerText = "Welcome"
 
+        let notice = ce('p')
+        notice.innerText = "Please note: please allow some time for the backend API to start running after accessing this page."
+
         let loginBtn = ce('button')
         loginBtn.innerText = "Log In"
 
         let signupBtn = ce('button')
         signupBtn.innerText = "Sign Up"
 
-        document.body.append(header, loginBtn, signupBtn)
+        document.body.append(header, notice, loginBtn, signupBtn)
 
         loginBtn.addEventListener('click', () => {
             logIn()
